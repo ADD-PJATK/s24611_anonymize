@@ -1,0 +1,29 @@
+Terminal Output for Successful Run on Different Formats
+
+> python anonymize.py --mapping examples/mapping.json --input examples/note.md --output out/note.anon.md -v
+Replaced 1 occurrences of 'Anna Nowak' with 'PERSON_A'
+Replaced 1 occurrences of 'A. Nowak' with 'PERSON_A'
+Replaced 1 occurrences of 'anna@firma.test' with 'EMAIL_A'
+Replaced 1 occurrences of '123-456-789' with 'PHONE_HIDDEN'
+Successfully wrote anonymized output to out/note.anon.md
+
+> python anonymize.py --mapping examples/mapping.json --input examples/data.json --output out/data.anon.json -v
+Replaced 1 occurrences of 'Anna Nowak' with 'PERSON_A'
+Replaced 1 occurrences of 'A. Nowak' with 'PERSON_A'
+Replaced 1 occurrences of 'anna@firma.test' with 'EMAIL_A'
+Replaced 1 occurrences of '123-456-789' with 'PHONE_HIDDEN'
+Successfully wrote anonymized output to out/data.anon.json
+
+> python anonymize.py --mapping examples/mapping.json --input examples/users.csv --output out/users.anon.csv -v
+Replaced 1 occurrences of 'Anna Nowak' with 'PERSON_A'
+Replaced 1 occurrences of 'A. Nowak' with 'PERSON_A'
+Replaced 2 occurrences of 'anna@firma.test' with 'EMAIL_A'
+Replaced 2 occurrences of '123-456-789' with 'PHONE_HIDDEN'
+Successfully wrote anonymized output to out/users.anon.csv
+
+> python anonymize.py --mapping examples/mapping.json --input examples/log.txt --output out/log.anon.txt -v
+Replaced 1 occurrences of 'Anna Nowak' with 'PERSON_A'
+Replaced 1 occurrences of 'A. Nowak' with 'PERSON_A'
+Replaced 1 occurrences of 'anna@firma.test' with 'EMAIL_A'
+Replaced 1 occurrences of '123-456-789' with 'PHONE_HIDDEN'
+Successfully wrote anonymized output to out/log.anon.txt

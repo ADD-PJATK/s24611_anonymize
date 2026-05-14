@@ -1,0 +1,3 @@
+2023-10-25 10:00:01 INFO User Anna Nowak logged in.
+2023-10-25 10:05:22 ERROR Failed to send email to anna@firma.test
+2023-10-25 10:10:00 WARN Contact A. Nowak regarding ticket #42 (Phone: 123-456-789)
